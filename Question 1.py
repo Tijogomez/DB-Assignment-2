@@ -33,3 +33,4 @@ conn1.execute("UPDATE EMPLOYEE SET Employee_Name = '"+ s +"'where Employee_Id='"
 print(conn1.execute("SELECT * from EMPLOYEE").fetchall())
 conn1.commit()
 conn1.close()
+
